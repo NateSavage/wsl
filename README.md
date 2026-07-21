@@ -11,13 +11,13 @@
 5. optionally replace the timezone in `/etc/nixos/flake.nix` with your actual timezone.
 -----
 ### Most Important Included Packages
-|     Tool     | Command |
-|     :---:    |  :---:  |
-| file browser | [yazi](https://github.com/sxyazi/yazi) (also aliased to fd) 
-| editor       | [nvim](https://neovim.io/) with my full neovim flake                                                              
-| shell        | [ion](https://doc.redox-os.org/ion-manual/) + [starship](https://starship.rs/config/) for the prompt
-| nix-helper   | [nh](https://github.com/nix-community/nh)                                                                         
-
+|     Tool     | Command |  Note |
+|     :---:    |  :---:  | :---: |
+| file browser | [yazi](https://github.com/sxyazi/yazi) | aliased to `fd`, vim controls
+| text editor  | [micro](https://github.com/micro-editor/micro) | your notepad in the terminal, it has mouse support!                             
+| IDE          | [nvim](https://neovim.io/) | fully configured with my neovim flake, for the 1980's programmer in you                                                             
+| shell        | [ion](https://doc.redox-os.org/ion-manual/) + [starship](https://starship.rs/config/) | fast *and* pretty
+| nix-helper   | [nh](https://github.com/nix-community/nh)  | useful for those unfamiliar with Nix's mess of an interface                                                                       
 -----
 
 Someday I'll get around to adding an option to the module to set the name for installed user so forking this flake is trivial.
